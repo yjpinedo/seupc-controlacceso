@@ -1,0 +1,83 @@
+<div class="my-login-page">
+
+  <section class="h-100" >
+    <div class="container h-100">
+      <div class="row justify-content-md-center h-100">
+        <div class="card-wrapper">
+          <br><br><br>
+          <div class="card fat">
+            <div class="card-body">
+              <div class="brand">
+                <img src="assets/imgs/logoEntidad.png">
+              </div>
+              <h4 class="card-title">Iniciar sesión</h4>
+              <form method="POST">
+
+                <div class="form-group">
+                 <!-- <label for="email">Correo electronico</label>-->
+
+                  <div class="input-group">
+                    <span class="input-group-text">
+                      @
+                    </span>
+                    <input id="email" type="email" class="form-control" placeholder="Correo electronico" name="correo" value="" required autofocus>
+                  </div>
+
+
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-text">
+                      <i class="fa fa-lock"></i>
+                    </span>
+                    <input id="password" type="password" class="form-control" placeholder="Contraseña" name="contraseña" required data-eye>
+                  </div>
+                  <br>
+                  <label for="password">
+                      <a href="#" class="float-right" routerLink="/#">
+                        Se te olvidó tu contraseña
+                      </a>
+                    </label>
+                </div>
+
+                <!--<div class="form-group">
+                  <label >
+                    <input type="checkbox" name="remember"> Remember Me
+                  </label>
+                </div>-->
+
+                <div class="form-group no-margin">
+                  <div class="row">
+                    <div class="col-md-6">
+                        <button id="btn2" type="submit" class="btn btn-block">
+                            <i class="fa fa-sign-in"></i>
+                            Iniciar sesión
+                          </button>  
+                    </div>
+                    <div class="col-md-6">
+                        <button id="btn1" type="submit" class="btn  btn-block">
+                            <i class="fa fa-google-plus"></i>
+                            Google
+                          </button>
+                    </div>
+                        
+                  </div>
+                  
+                </div>
+                <div class="margin-top20 text-center">
+                  No tienes una cuenta
+                  <a href="/register" routerLink="/register">Crea Una</a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="footer">
+            Copyright &copy; Yeimer Pinedo 2018
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
